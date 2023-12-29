@@ -1,0 +1,80 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --mycolor:rgb(250,250,130);
+  --mybackground: rgb(14,89,255);
+  --myfont: 30px; 
+}
+
+
+
+.mybox{
+  background-color: var(--mybackground);
+  height: 15vh;
+}
+
+.mybox img{
+  width:50px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 50px;
+  cursor: pointer;
+  border-radius: 50%;
+
+}
+
+.mybox a{
+    text-decoration: none;
+    color: var(--mycolor);
+    margin-left:100px;
+    font-size: var(--myfont);
+}
+
+mybox a:hover{
+   background-color: black;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form>*{
+  margin-top: 10px;
+}
+
+form>label{
+  font-size: 20px;
+  font-family:cursive;  
+  color: #7F00FF;
+}
+
+form>button{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #7F00FF;
+    color: var(--mycolor);
+    font-size: 18px;
+}
+
+form>input{
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: yellow;
+}
+
+textarea{
+  border-radius: 10px;
+  background-color: yellow;
+}
+

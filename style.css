@@ -1,0 +1,142 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --mycolor:rgb(12, 12, 12);
+  --mybackground: rgb(244, 245, 247);
+  --myfont: 30px; 
+}
+
+
+
+.mybox{
+  background-color: var(--mybackground);
+  height: 15vh;
+}
+
+.mybox img{
+  width:50px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 50px;
+  cursor: pointer;
+  border-radius: 50%;
+
+}
+
+.mybox a{
+    text-decoration: none;
+    color: var(--mycolor);
+    margin-left:100px;
+    font-size: var(--myfont);
+}
+
+mybox a:hover{
+   background-color: black;
+}
+/* 
+ul{
+  display:flex;
+}
+li{
+  margin-left: 15px;
+}
+.third{
+  order: 1;
+} */
+
+
+.left-side{
+  height:100vh;
+  width: 10%;
+  background-color: var(--mybackground);
+  opacity: 0.3;
+  position: fixed;
+  top: 0;
+}
+
+.left-side{
+  display:flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-evenly;
+}
+
+.left-side>a{
+  margin-left: 20px;
+  text-decoration: none;
+  color: var(--mycolor);
+  font-size: 20px;
+}
+
+
+.left-side>a:hover{
+  background-color: black;
+}
+
+.shoes-box img{
+  width: 200px;
+  height: 200px;
+}
+
+.shoes-box{
+  margin-top: 5%;
+  margin-left: 300px;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.shoes-box> figure{
+  margin-top: 20px;
+  border: 2px solid black;
+  background-color:rgb(247, 238, 238);
+}
+
+
+figcaption{
+  margin-left: 55px;
+  font-family: cursive;
+  color: rgb(14, 13, 13);
+}
+
+figcaption:hover{
+  cursor: pointer;
+  text-shadow:5px 5px 5px red;
+}
+
+figure>div{
+  margin-top: 5px;
+    display:flex;
+    justify-content: center;
+}
+
+
+figure>div>button{
+  width: 50px;
+  height:20px;
+  background-color: var(--mybackground);
+  cursor: pointer;
+  color: rgb(7, 7, 7);
+}
+
+.myname{
+  margin-right: 100px;
+}
+figure>div>span{
+  font-size: 20px;
+  color: rgb(17, 17, 17);
+}
+.mydiv{
+  margin-right: 100px;
+}
+
+.myh4{
+  margin-bottom: 100px;
+}
