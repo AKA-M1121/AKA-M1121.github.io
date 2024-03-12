@@ -1,0 +1,133 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --mycolor:rgb(252, 222, 189);
+  --mybackground: rgb(231, 231, 229);
+  --myfont: 30px; 
+}
+
+
+
+.mybox{
+  background-color: var(--mybackground);
+  height: 15vh;
+}
+
+.mybox img{
+  width:50px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 15px;
+  cursor: pointer;
+  border-radius: 50%;
+
+}
+
+.mybox a{
+    text-decoration: none;
+    color: rgb(250, 247, 243);
+    margin-left:5px;
+    font-size: 15px;
+}
+
+mybox a:hover{
+   background-color: rgb(241, 233, 233);
+}
+/* 
+ul{
+  display:flex;                  
+}
+li{
+  margin-left: 15px;
+}
+.third{
+  order: 1;
+} */
+
+
+.left-side{
+  height:100vh;
+  width: 10%;
+  background-color: var(--mybackground);
+  opacity: 0.3;
+  position: fixed;
+  top: 0;
+}
+
+.left-side{
+  display:flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-evenly;
+}
+
+.left-side>a{
+  margin-left: 20px;
+  text-decoration: none;
+  color: var(--mycolor);
+  font-size: 20px;
+}
+
+
+.left-side>a:hover{
+  background-color: black;
+}
+
+.shoes-box img{
+  width: 100px;
+  height: 100px;
+}
+
+.shoes-box{
+  margin-top: 5%;
+  margin-left: 20px;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.shoes-box> figure{
+  margin-top: 20px;
+  border: 2px solid black;
+  background-color:grey;
+}
+
+
+figcaption{
+  margin-left: 55px;
+  font-family: cursive;
+  color: white;
+}
+
+figcaption:hover{
+  cursor: pointer;
+  text-shadow:5px 5px 5px red;
+}
+
+figure>div{
+  margin-top: 5px;
+    display:flex;
+    justify-content: center;
+}
+
+
+figure>div>button{
+  width: 50px;
+  height:20px;
+  background-color: var(--mybackground);
+  cursor: pointer;
+  color: white;
+}
+figure>div>span{
+  font-size: 20px;
+  color: white;
+}
+
+
